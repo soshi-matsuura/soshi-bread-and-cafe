@@ -1,0 +1,1255 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", "メイリオ", Meiryo, Verdana, sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+p, h2, h3 {
+	color: #000;
+}
+
+.sumaho-show {
+	display: none;
+}
+
+
+
+
+/* ヘッダー＆ファーストビュー */
+
+
+.container {
+	position: relative;
+	min-width: 100%;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header-contents {
+	display: flex;
+	padding: 35px 35px 0 35px;
+}
+
+.main-logo img {
+	width: 40%;
+}
+
+.header-nav ul {
+	display: flex;
+}
+
+.nav-content {
+	margin-right: 45px;
+}
+
+.header-nav ul li a {
+	color: #000;
+	font-family: YuGothic, "Yu Gothic";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.first-view-logo {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+}
+
+.first-view-logo p  {
+	width: 50%;
+}
+
+.first-view-logo p img {
+	width: 100%;
+}
+
+
+/* メイン */
+
+
+#tokuchou-contents {
+	width: 100%;
+	height: 814px;
+	padding: 55px 0;
+	background-image: url('images/baguette-on-white-surface-1756064.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tokuchou-naiyou {
+	text-align: center;
+}
+
+.tokuchou-daimei {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.tokuchou-logo {
+	width: 19%;
+	margin: 0 auto 30px auto;
+}
+
+.tokuchou-logo img {
+	width: 100%;
+}
+
+.tokuchou-text {
+	line-height: 25px;
+	font-size: 14px;
+	letter-spacing: 1px
+}
+
+
+/* 左ナビ */
+
+
+.left-nav {
+	position: fixed;
+	top: 50%;
+	left: 35px;
+	transform: translateY(-50%);
+}
+
+.nav-logo img {
+	width: 50%;
+}
+
+
+/* 右ナビ */
+
+
+.nav-sns-btn {
+	position: fixed;
+	top: 50%;
+	left: 96%;
+	transform: translateY(-50%);
+}
+
+.nav-facebook-btn {
+	display: block;
+	margin-bottom: 15px;
+	color: #6f8e20;
+}
+
+.nav-insta-btn {
+	display: block;
+	color: #6f8e20;
+}
+
+
+/* こだわり */
+
+
+#kodawari-contents {
+	padding: 55px 56px;
+}
+
+.kodawari-daimei p {
+	text-align: center;
+	font-family: "Playfair Display", serif;
+	font-size: 18px;
+	color: #6f8e20;
+}
+
+.kodawari-daimei h2 {
+	text-align: center;
+	margin-bottom: 65px;
+	font-size: 34px;
+}
+
+.kodawari-material {
+	display: flex;
+	margin-bottom: 65px;
+}
+
+.material-img {
+	margin: 0;
+}
+
+.material-img img {
+	width: 100%;
+}
+
+.material-setumei-texts {
+	margin: 150px 0 0 134px;
+}
+
+.material-title {
+	margin-bottom: 40px;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	letter-spacing: 2px;
+	color: #6f8e20;
+	font-style: italic;
+}
+
+.material-text {
+	line-height: 1.8;
+	font-size: 14px;
+}
+
+.kodawari-handmade {
+	display: flex;
+	margin-bottom: 65px;
+}
+
+.handmade-img {
+	margin: 0;
+}
+
+.handmade-img img {
+	width: 100%;
+}
+
+.handmade-setumei-texts {
+	margin: 150px 0 0 134px;
+}
+
+.handmade-title {
+	margin-bottom: 40px;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	letter-spacing: 2px;
+	color: #6f8e20;
+	font-style: italic;
+}
+
+.handmade-text {
+	line-height: 1.8;
+	font-size: 14px;
+}
+
+.kodawari-individuality {
+	display: flex;
+	margin-bottom: 65px;
+}
+
+.individuality-img {
+	margin: 0;
+}
+
+.individuality-img img {
+	width: 100%;
+}
+
+.individuality-setumei-texts {
+	margin: 150px 0 0 134px;
+}
+
+.individuality-title {
+	margin-bottom: 40px;
+	font-family: "Times New Roman";
+	font-size: 50px;
+	letter-spacing: 2px;
+	color: #6f8e20;
+	font-style: italic;
+}
+
+.individuality-text {
+	line-height: 1.8;
+	font-size: 14px;
+}
+
+
+/* 商品情報 */
+
+
+#product-info {
+	padding-top: 50px;
+}
+
+.product-title {
+	position: relative;
+	text-align: center;
+}
+
+.product-title h2 {
+	padding-top: 50px;
+	margin-bottom: 45px;
+	font-size: 34px;
+}
+
+.product-title h2:before {
+	content: "LINE UP";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: "Playfair Display", serif;
+	font-size: 18px;
+	color: #6f8e20;
+	letter-spacing: 1.4px;
+}
+
+.product-title p {
+	margin-bottom: 60px;
+	font-size: 14px;
+}
+
+.product-bread-info {
+	position: relative;
+	display: flex;
+}
+
+.product-bread-title {
+	margin-bottom: 20px;
+	font-family: "Karla", sans-serif;
+	font-size: 16px;
+	color: #82612e;
+}
+
+.product-bread-subtitle {
+	margin-bottom: 25px;
+	font-size: 28px;
+}
+
+.product-bread-price {
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.product-bread-text {
+	font-size: 13px;
+}
+
+.product-bread-img {
+	width: 50%;
+}
+
+.product-bread-img img {
+	width: 100%;
+}
+
+.kaiware-bread-info {
+	margin: 0 56px 45px 168px;
+}
+
+.kaiware-bread-texts {
+	width: 50%;
+	padding: 90px 0 25px 0;
+}
+
+.kaiware-bread-texts:after {
+	content: "";
+	width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    background-color: #faf5e6;
+    transform: translateX(-50%) skewX(-24.5deg);
+}
+
+.kaiware-bread-price1 {
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.donut-info {
+	margin: 0 168px 45px 56px;
+}
+
+.donut-title {
+	color: #dc9c4c;
+}
+
+.donut-texts {
+	width: 50%;
+	padding: 120px 0 25px 0;
+}
+
+.donut-texts:after {
+	content: "";
+	width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    background-color: #faf5e6;
+    transform: translateX(-50%) skewX(-24.5deg);
+}
+
+.buns-info {
+	margin: 0 56px 45px 168px;
+}
+
+.buns-texts {
+	width: 50%;
+	padding: 150px 0 25px;
+}
+
+.buns-texts:after {
+	content: "";
+	width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    background-color: #faf5e6;
+    transform: translateX(-50%) skewX(-24.5deg);
+}
+
+.buns-price {
+	margin: 0;
+	font-weight: bold;
+}
+
+.france-bread-info {
+	margin: 0 168px 45px 56px;
+}
+
+.france-bread-texts {
+	padding: 125px 0 25px 0;
+}
+
+.france-bread-texts:after {
+	content: "";
+	width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    background-color: #faf5e6;
+    transform: translateX(-50%) skewX(-24.5deg);
+}
+
+
+/* パン配送サービス */
+
+
+#delivery-service {
+	text-align: center;
+	padding-top: 70px;
+}
+
+.delivery-service-midasi {
+	position: relative;
+	padding-top: 50px;
+	margin-bottom: 65px;
+	font-size: 34px;
+}
+
+.delivery-service-midasi:before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	content: "DELIVERY";
+	font-family: "Playfair Display", serif;
+	font-size: 18px;
+	color: #6f8e20;
+	letter-spacing: 1.4px;
+}
+
+.delivery-service-img {
+	margin-bottom: 50px;
+}
+
+.delivery-service-img img {
+	width: 12.5%;
+}
+
+.delivery-service-text {
+	margin-bottom: 45px;
+	font-size: 14px;
+	line-height: 1.7;
+}
+
+.delivery-service-tels {
+	position: relative;
+}
+
+.delivery-service-tel {
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 43px;
+	font-weight: bold;
+}
+
+.tel-border-bottom {
+	background-image:linear-gradient(transparent 58%,#fae23b 0,#fae23b 90%,transparent 0);
+}
+
+.tel-font-size  {
+	font-size: 30px;
+}
+
+.delivery-service-tel-hosoku {
+	font-size: 13px;
+}
+
+/* 店舗紹介 */
+
+
+#store-introduction {
+	padding-top: 70px;
+	margin: 0 280px;
+}
+
+.store-introduction-midasi {
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 60px;
+	font-size: 34px;
+	position: relative;
+}
+
+.store-introduction-midasi:before {
+	content: "SHOP";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: "Playfair Display", serif;
+	font-size: 18px;
+	color: #6f8e20;
+	letter-spacing: 1.4px;
+}
+
+.store-introduction-img img{
+	width: 100%;
+}
+
+.store-introduction-text {
+	margin-top: 45px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.soshi-bakery-info {
+	display: flex;
+	margin-top: 60px;
+}
+
+.soshi-bakery-info-img {
+	 width: 55%;
+	 margin-right: 80px;
+}
+
+.soshi-bakery-info-img img {
+	width: 100%;
+}
+
+.soshi-bakery-basic-info1 {
+	width: 45%;
+	padding-top: 42px;
+}
+
+.soshi-bakery-name {
+	padding-top: 8px;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+.soshi-bakery-name-before {
+	font-family: "Karla", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #6f8e20;
+	letter-spacing: 0.7px;
+}
+
+.soshi-bakery-jyusho {
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.soshi-bakery-station {
+	margin-bottom: 25px;
+	font-size: 13px;
+}
+
+.soshi-bakery-basic-info2-th {
+	width: 50%;
+	padding: 5px 0;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.soshi-bakery-basic-info2-td {
+	padding: 5px 0;
+	font-size: 13px;
+}
+
+.soshi-bakery-company {
+	margin-top: 25px;
+	font-size: 13px;
+}
+
+
+/* お知らせ */
+
+
+.nortice {
+	margin: 0 200px;
+	padding-top: 70px;
+}
+
+.nortice-title {
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 60px;
+	font-size: 34px;
+	position: relative;
+}
+
+.nortice-title:before {
+	content: "nortice";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: "Playfair Display", serif;
+	font-size: 18px;
+	color: #6f8e20;
+	letter-spacing: 1.4px;
+}
+
+.nortices {
+	display: block;
+	float: left;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.nortices a {
+	margin: 0 50px;
+	display: flex;
+	text-decoration: none; 
+}
+
+.nortice a:hover {
+	opacity: 0.6;
+}
+
+.nortice-img {
+	width: 25%;
+	margin: 0;
+}
+
+.nortice-img img {
+	width: 100%;
+}
+
+.nortice-texts {
+	width: 75%;
+	padding: 0 30px;
+	vertical-align: middle;
+}
+
+.nortice-text {
+	font-size: 16px;
+}
+
+.nortice-date {
+	margin: 0;
+	font-size: 14px;
+}
+
+
+/* フッター */
+
+
+.footer {
+	padding: 85px 0 25px 0;
+	text-align: center;
+	clear: left;
+}
+
+.footer-sns-btn {
+	margin-bottom: 65px;
+}
+
+.footer-facebook-btn {
+	margin-right: 15px;
+	color: #000;
+}
+
+.footer-facebook-btn:hover {
+	color: #000;
+	opacity: 0.8;
+}
+
+.footer-insta-btn {
+	color: #000;
+}
+
+.footer-insta-btn:hover {
+	color: #000;
+	opacity: 0.8;
+}
+
+.footer-logo {
+	margin-bottom: 50px;
+}
+
+.footer-contact-privacy {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.footer-contact-form {
+	position: relative;
+	top: 0;
+	left: 45%;
+	transform: translateX(-50%);
+	margin: 0 25px;
+	font-size: 12px;
+}
+
+.footer-contact-form a {
+	color: #000;
+}
+
+.footer-privacy {
+	position: relative;
+	top: 0;
+	left: 45%;
+	transform: translateX(-50%);
+	margin: 0 30px;
+	font-size: 12px;
+}
+
+.footer-privacy a {
+	color: #000;
+}
+
+.footer-copyright {
+	font-size: 10px;
+}
+
+
+
+
+/* レスポンシブ */
+/* max-width1527px用 */
+
+@media screen and (max-width: 1300px) {
+
+.header-nav ul li a {
+	font-size: 12px;
+}
+
+.material-setumei-texts {
+	margin-top: 60px;
+}
+
+.handmade-setumei-texts {
+	margin-top: 80px;
+}
+
+.individuality-setumei-texts {
+	margin-top: 80px;
+}
+
+.nortice {
+	margin: 0 200px;
+}
+
+.nortices {
+	width: 50%;
+}
+
+.noritces a {
+	margin: 0 100px;
+}
+
+.nortice-img {
+	width: 20%;
+}
+
+.nortice-texts {
+	width: 80%;
+}
+
+.nortice-text {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.nortice-date {
+	font-size: 10px;
+}
+
+.footer-contact-form {
+	font-size: 10px;
+}
+
+.footer-privacy {
+	font-size: 10px;
+}
+
+} 
+
+
+@media screen and (max-width: 959px) {
+
+.main-logo {
+	width: 30%;
+}
+
+.header-nav ul {
+	padding: 0;
+}
+
+.header-nav ul li a {
+	font-size: 12px;
+}
+
+.nav-content {
+	margin-right: 20px;
+}
+
+#tokuchou-contents {
+	height: 700px;
+	background-size: contain;
+}
+
+.material-setumei-texts {
+	margin: 30px 0 0 100px;
+}
+
+.material-title {
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.material-text {
+	font-size: 12px;
+}
+
+.handmade-setumei-texts {
+	margin: 30px 0 0 100px;
+}
+
+.handmade-title {
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.handmade-text {
+	font-size: 12px;
+}
+
+.individuality-setumei-texts {
+	margin: 30px 0 0 100px;
+}
+
+.individuality-title {
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.individuality-text {
+	font-size: 12px;
+}
+
+.kaiware-bread-texts {
+	padding-top: 20px;
+}
+
+.kaiware-bread-texts:after {
+	width: 70%;
+	height: 100%;
+}
+
+.product-bread-title {
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.product-bread-subtitle {
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+.product-bread-price {
+	font-size: 14px;
+}
+
+.product-bread-text {
+	font-size: 12px;
+}
+
+.donut-texts {
+	padding-top: 20px;
+}
+
+.donut-texts:after {
+	width: 70%;
+	height: 100%;
+}
+
+.buns-texts {
+	padding-top: 20px;
+}
+
+.buns-texts:after {
+	width: 70%;
+	height: 100%;
+}
+
+.buns-price {
+	font-size: 14px;
+}
+
+.france-bread-texts {
+	padding-top: 20px;
+}
+
+.france-bread-texts:after {
+	width: 70%;
+	height: 100%;
+}
+
+.france-bread-img {
+	width: 100%;
+}
+
+.france-bread-img img {
+	width: 100%;
+}
+
+#store-introduction {
+	margin: 0 100px;
+}
+
+.soshi-bakery-basic-info1 {
+	padding: 0;
+}
+
+.nortice {
+	margin: 0 80px;
+}
+
+.footer-contact-form {
+	left: 40%;
+}
+
+.footer-privacy {
+	left: 42%;
+}
+}
+
+
+@media screen and (max-width: 559px) {
+
+.sumaho-show {
+	display: block;
+}
+
+.pc-show {
+	display: none;
+}
+
+.container {
+	background-size: cover;
+	width: 100vw;
+	height: 400px;
+}
+
+.main-logo {
+	width: 40%;
+}
+
+.header-nav {
+	display: none;
+}
+
+.first-view-logo {
+	top: 45%;
+	left: 23%;
+}
+
+.first-view-logo p {
+	width: 70%;
+}
+
+
+/* メイン */
+/* 特徴 */
+
+
+#tokuchou-contents {
+	height: auto;
+	padding: 40px 0;
+}
+
+.tokuchou-logo {
+	margin-bottom: 15px;
+}
+
+.tokuchou-text {
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+
+.kotei-nav {
+	display: none;
+}
+
+
+/* こだわり */
+
+
+#kodawari-contents {
+	padding: 60px 41px 0 41px;
+}
+
+.kodawari-daimei p {
+	font-size: 15px;
+}
+.kodawari-daimei h2 {
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+.kodawari-material {
+	display: block;
+}
+
+.material-setumei-texts {
+	margin-left: 0;
+}
+
+.material-title {
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.kodawari-handmade {
+	display: block;
+}
+
+.handmade-setumei-texts {
+	margin-left: 0;
+}
+
+.handmade-title {
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.kodawari-individuality {
+	display: block;
+	margin: 0;
+}
+
+.individuality-setumei-texts {
+	margin-left: 0;
+}
+
+.individuality-title {
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+/* 商品情報 */
+
+
+#product-info {
+	padding: 0 41px 0 40px;
+	margin-top: 70px;
+}
+
+.product-title h2 {
+	padding-top: 32px;
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+
+.product-title h2:before {
+	font-size: 15px;
+}
+
+.product-title p {
+	margin-bottom: 30px;
+}
+
+.product-bread-info {
+	margin: 0 0 45px 0;
+	display: block;
+}
+
+.product-bread-title {
+	display: none;
+}
+
+.product-bread-img {
+	width: 100%;
+}
+
+.kaiware-bread-texts {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.kaiware-bread-texts:after {
+	display: none;
+}
+
+.donut-texts {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.donut-texts:after {
+	display: none;
+}
+
+.buns-texts {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.buns-texts:after {
+	display: none;
+}
+
+.france-bread-texts {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.france-bread-texts:after {
+	display: none;
+}
+
+
+/* パン配送サービス */
+
+
+#delivery-service {
+	padding-top: 30px;
+}
+
+
+/* 店舗紹介 */
+
+
+.soshi-bakery-info {
+	display: block;
+}
+
+.soshi-bakery-info-img {
+	width: 100%;
+}
+
+.soshi-bakery-basic-info1 {
+	width: 100%;
+}
+
+
+/* お知らせ */
+
+
+.nortices {
+	width: 100%;
+	clear: left;
+}
+
+.nortices a {
+	width: 100%;
+	margin: 0;
+	display: flex;
+}
+
+.nortice-img {
+	width: 25%;
+}
+
+.nortice-texts {
+	width: 75%;
+}
+
+.nortice-text {
+	width: 100%;
+	font-size: 15px;
+}
+
+.nortice-date {
+	font-size: 12px;
+}
+
+
+/* フッター */
+
+
+.footer {
+	padding-top: 70px;
+}
+
+.footer-sns-btn {
+	margin-bottom: 50px;
+}
+
+.footer-contact-form {
+	left: 35%;
+}
+
+.footer-privacy {
+	left: 37%;
+}
+}
+
+
+
+/* jquery用css */
+
+
+.sa {
+	opacity: 0;
+	transition: all .8s ease;
+}
+
+.sa.show {
+	opacity: 1;
+ 	transform: none;
+}
+
+.sa-up {
+	transform: translate(0, 50px);
+}
+
+.sa-lr {
+	transform: translate(100px, 0);
+}
+
+.sa-rl {
+	transform: translate(-100px, 0);
+}
+
+
+
+
+
+
+
+
+
